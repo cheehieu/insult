@@ -30,7 +30,7 @@
   <body>
     <script>
       // Use jQuery to GET insult (CORS proxy to bypass MissingAllowOriginHeader error)
-      $.get("https://cors-anywhere.herokuapp.com/https://evilinsult.com/generate_insult.php", function(data) {
+      $.get("https://nifty-cors.herokuapp.com/https://evilinsult.com/generate_insult.php", function(data) {
         $('footer').prepend('<h1>' + data + '</h1>');
       });
     </script>
